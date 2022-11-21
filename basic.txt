@@ -1,0 +1,276 @@
+                                                            ****************Linux basic **********************
+                                                            
+                                                                           SHELL SCRIPITING
+                                                                           
+				         PROGRAMMABLE MODE
+				         SHELL .SH EXTENSION
+				         FOR MAKING EXCUTABLE SHELL CHMOD +X FILE NAME 
+				         ./FILENAME FOR EXECUTING SHELL
+				           
+				           
+	<iframe height="480" src="https://drive.google.com/file/d/144cDF8lP4mcBuilTqCzcAs-AHV2tbA3s" width="640"></iframe>
+				                                                           
+                                                                       Linux Basic Commands
+                                        
+                                        LS-  ,lah             THIS IS USED FOR LISTING THE DIRECTORIES . is used to hidden file.
+                                        MKDIR- ,-p,            THIS IS USED DOR MAKING NEW DIRECTORY can create lots of directory at one time
+                                        RMDIR- ,-           THIS IS USED FOR REMOVING THE DIRECTORY
+                                        APT-GET INSTALL - THIS IS USED FOR INSTALL PAKAGESA AND REPOSITERIS
+                                                                     *ALL ARE FILES IN LINUX*
+                                        PWD-             PRINTS CURRENT WORKING DIRECTORY
+                                        CAT-             PRINTS THE INSIDE THE FILE 
+                                        |                THIS IS USED FOR PIPING THE FILE LESS IS ARGUMENT 
+                                        > -              THIS IS USED FOR REDIRECT THE SCREEN OUTPUT THE > "FILENAME"  | >> THIS WILL UPPEND THE GIVEN TEXT
+                                        2>&1 -           THIS REDIRECTS THE SCREENS ERROR TO THE FILE 
+                                        TOUCH-           THIS CREATES THE DUMMY FILE AT THE TIME 
+                                                                       *KALI LINUX IS CASE SENSTIVE*
+                                                                  
+                                        WHICH-             THIS IS USED FOR THE WHERE THE COMMAND IS CAME FROM.
+                                        $PATH-T             HIS IS USD FOR HOW THE COPMMANDS WILL BE EXCUTED IN PATH 
+                                        SUDO-               DO AS ROOT USER
+                                        APT-                PAKAGE MANAGER
+                                        INATALL-            SUBCAMMAND + PARAMETER
+                                        FIND-               THIS IS USED FOR FIND THE FILE .SYNTAX- FIND DIRECTORY -NAME FILENAME
+                                        XARGS-              T HIS IS USED FOR TAKE ALL FILE FOR DO ANY ACTION
+                                        GREP-               THIS IS USED FOR SEARCH GREP "SRCH" *.FILE-EXTENSION.
+                                        CD -                THIS IS USED FOR PREVIOUS DIRECTORY
+                                        {4..}-              This create range of files 
+                                        MV-                 this is used to ove the files
+                                        TAC-                behave like cat on reverse prints the data in reverse format
+                                        Tree                its represents data in tree format
+                                        Top                 Its gives the output of process and priority
+                                        pS                  Process Status
+                                        
+                                        
+                                        
+                                                **** docker run -it sundowndev/phoneinfoga scan -n 917094295944 *****
+                                                ***   docker run -it -p 8080:8080 sundowndev/phoneinfoga serve -p 8080 ***
+                                         
+                                                                   * Linux File System *    
+                                                       /bin                all binnary files like shell commands
+                                                       /etc                startup needed files
+                                                       /grub               booting files
+                                                       /dev                devices directory in file format
+                                                       /lib or /lib64      kernal modules and images
+                                                       /media              temp media like cd or pendrive save in this directory
+                                                       /mount              mount the device and recovery 
+                                                       /opt                not in linux pakages are installed in tis directory 
+                                                       /proc               like windows task manager
+                                                       /root               main directory of rootuser
+                                                       /run                complex problems solved
+                                                       /sbin               sudo commands in this directory
+                                                       /srv                service relatedd files like server any other services
+                                                       /sys                modifies the device configuration files in this file
+                                                       /temp               temperory files directory
+                                                       /var                logs files and backups directory
+                                                       
+                                                       ***File COmpressing And Decompressing in Linux***
+                                                       
+                                             gzip - compredd the file, -l -deatils of compression,-r compress the all directory files
+                                             gnzip -decompress the file
+                                             bzip  -compresser
+                                             bunzip -decompresser
+                                                             
+                                                      ***Archive Programs***
+                                                            Tar -its compress files in one file .tar and it cannot be compressed the file size.
+                                                            -xvf x-extract ,c-create a archive,z-compress
+                                                            zip
+                                                           unzip
+                                                        
+                                                        ***File OPeration and Permissions in LINUX***
+                                                    
+                                       D-                 directory
+                                       R-                 Read
+                                       W-                 Write
+                                       X-                 Excuet
+                                       -                  NOrmal File
+                                               
+                                                         ***Assigning the Perissions***
+                                      RELATIVE:
+                                      catagory  - user,group,others         
+                                      operation - +,-,=
+                                      permission- r w x 
+                                      
+                                      CHMOD-Catagory -operation -permission -filename ,-R changes the whole directory permissions
+                               
+                                      
+                                      Absloute Operations:
+                                      Binary Permissions
+                                      r       w       x
+                                      10      20     30
+                                      0       0      1 =30
+                                      
+                                      000      1    - - - 
+                                      001      2     - - x
+                                      .
+                                      .
+                                      .
+                                      111      7    r w x
+                                      
+                                                  ***FILE OWNERSHIP IN LINUX***
+                                                 
+                                     CHOWN-ITS CHAMGES THE FILE OWNERSHIP
+                                     CHGRP-CHANGES THE GROUP PERMISSIONS
+                                     R-THIS IS USED FOR CHANGE ALL FILE OWNERSHIP 
+                                     LSH:RSH - LHS USER : RSH GROUP PERMISSSIONS
+                                              
+                                                     **Visual Improved Editor***
+                                      
+                                      VIM-used to open text files. *powerful text editor
+                                      NAVIGATION:
+                                      H-LEFT SIDE
+                                      K-UP
+                                      L-RIGHT SIDE
+                                      J-DOWN
+                                      
+                                      MODES:
+                                       COMMAND MODE: THIs is used to give the command to the editor "esc" to go to commmand mode
+                                       EDIT MODE:  Edits the file contents in VIM editor.
+                                       
+                                      OPerations:
+                                      :wq - w-write the changes, q-quit
+                                      shift+zz this also write and quit the VIN editor
+                                      
+                                      CHARACTER DELETION IN VIM:
+                                      
+                                      X-Delete the charecter
+                                      DW-Delete words
+                                      DD -deleted the entire line in VIM
+                                      
+                                      
+                                      u-undo the changes
+                                      0-starting of the line
+                                      shift+$-End of the line  
+                                      b-goto the begininig of the word
+                                      e-end of the word
+                                      w-goto the start of the near word
+                                      
+                                      ***we press D the content will be storen in VIm Cache memory***
+                                      p-paste the content
+                                      y-copy(yank)means copy
+                                      i-insert
+                                      Iinsert start of the line
+                                      a-append
+                                      A-append End of he line
+                                      i-insert the new content
+                                      
+                                                             *** SHELL SCRIPTING***
+                                                             
+                                               SHELL IS KERNEL AND USER INTERMEDIATE PROGRAM
+                                               SHELL HAS LOTS OF META CHARACTERS LIKE *.?
+                                               USER --> SHELL --> METACHAR -> KERNEL-->
+                                              
+                                    META CHARS 
+                                    
+                                    * --> GIVES EXACT MATCH LIKE LS NAME*
+                                    ? --> PARTICULAR CHAR LS NAME? 
+                                    
+                                   CHARACTER CLASS [A-Z] -->  RANGE SEARCH  --> [! EXCEPT MATCH ]
+                                   
+                                   ESCAPING \ --. THIS IS USED FOR ESCAPE THE FUNCTION OF THE META CHARS
+                                   WE CAN USE QUOTATIONS IN ESCAPING LIKE  --> ",'
+                                   
+                                   REDIRECTION !!!!! IMPORTANT 
+                                   INPUT--> OUTPUT --> ERROR-->
+                                   >.<0 --> OUTPUT REDIRECTION OPERATOR
+                                   <,1> --> INPUT REDIRECTION CAT < FILE NAME ITS OPENS THE FILE AND REDIRECT HE CAT PROGRAM   
+                                   2> --> ERROR REDIRECTION 
+                                   STREAM --> FLOW OF DATA 
+                                   
+                                   /dev/null --> its a like trash can error will be redirects in this location the file size cannot be increased
+                                   /dev/pts/0 --> its is new terminal windows location it auto generated 
+                                   
+                                                         PIPES IN LINUX | 
+                                                
+                                    GETS THE INPUT | GIVES THE  OUTPUT --> PIPE WORK LIKE THIS
+                                    
+                                    TEE --> ITS IS USED FOR GET THE OUTPUT AND WRITE THE OUTPUT IN FILE 
+           
+           
+                                                            ***COMMANDS SUBSTUITION ***  
+                                                                                            
+                                    WE CAN SUBSTUITE THE COMMANDS IN SHELL COMMANDS --> `` --> $() THIS ALSO SYNTAX
+                                    
+                                                        ***SHELL VARIABLES***
+                                                   
+                                        USE $ TO PRINT THE SHELL VARIABLES
+                                        
+                                        USER DEFINED VARABLES SHOULD BE IN SAMLL CASE THE SHELL VARIABLES IS CAPS 
+                                        
+                                        SINGLE ''--> ITS PRINTS THE INPUT
+                                        DOUBLE""--> ITS EXCUTES THE COMMANDS IN SHELL
+                                        
+                                        
+                                                         *** LINUX SHELL PROCESS ***	
+                                          
+                                       THE PROGRAM START RUNUNG THAT IS CALLED PROCESS --> THE PROGRAM IS STORED IN HD IS KNOWN AS PROGRAM
+                                       
+                                               ***PARENT AND CHILD PROCESS**    
+                                       IN SHELL BASH SHELL IS A PARENT PROCESS USER GIVEN `PS` CHILD PROCESS IN BASH
+                                       UDI --> WHICH USER
+                                       PPID--> PAREN PROCESS ID 
+                                       PID--> PROCESS ID
+                                       
+                                       PROCESS CREATION
+                                       
+                                       FORK --> CREATES NEW PROCESS IN DUPLICATE SYS-FUNC()
+                                       IN THIS FORK PROCESS THE GIVEN COMMAND CODE WILL BE FILLED IN DUPLICATE zSH SHELL 
+                                       STACK --> HEAP --> DATA --> TEXT
+                                       EXEC --> EXCUTE THE PROCESS 
+                                       WAIT --> WAITS THE UNTIL THE PROCESS GIVE AN OUTPUT
+                                       EXIT --> CLEAR ALOCATED MEMORY AND TERMINITA THE PROCESS
+                                       
+                                       PROCESS STATE : SEE THE PROCESS 
+                                       
+                                       READY--->
+                                       RUNNING-->
+                                       WAITING-->
+                                       TERMINATE-->
+                                       
+                                       " READY --> SHELDULER DISPATCH 1 --> WAITING --> 1 --> RUNNNING --> TERMINATE
+                                       
+                                      PROCESS BLOCK --> USING THIS KERNEL WILL DECIDE TO DONE THE PROCESSS FIRST
+                                       
+                                       &--> RUN THE PROCESS IN BACKGROUND
+                                       NOHUB--> RUN THE PROCESS UNTIL THE SYS SHUTDOWN
+                                        
+                                       PROCESS PRIORITY -19 TO 20 -19 IS HIGH PRIORITY 20 IS LOW PRIORITY
+                                       WE CAN CHANNGE THE PROCESS PRIORITY BY CHAGING THE NICE VALUE
+                                       
+                                       KILLING THE PROCESS
+                                        kill -l list the signal to kill 
+                                        
+                                        INTI -IS THE FIRST PROCESS  SHELDULER DISPATCH IS PARENT OF INIT
+                                        KTHREADD --> IS THE PARENT PROCESS OF ALL  
+                                        
+                                        IF THE PARENT WILL KILLED THAT PROCESS WIIL BE TAKEN BY THE INIT UNDER PROCESS 
+                                        
+                                                     *** JOBS IN LINUX ***
+                                                    
+                                        JOBS MEADN SET OF PROGRAMS
+                                        
+                                        JOB CONTROLS
+                                        BG --> BACK GROUND + recent added jobs
+                                        FG --> FORE GROUND fg to fore ground
+                                                   
+                                        
+                                       
+                                       
+                                       
+                                       
+                                       
+                                        
+                                    
+                                    
+                                    
+                                    
+                                                                           
+                                      
+                                      
+                                                       
+                                                       
+                                                  
+                                      
+                                                                    
+                                                                                                                                   
+                                                                         
